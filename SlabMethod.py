@@ -140,3 +140,4 @@ print(f"{'Point':<15} | {'Region Found'}")
 print("-" * 35)
 for x, y in test_points:
     print(f"({x}, {y})".ljust(15) + " | " + locate(x, y))
+
